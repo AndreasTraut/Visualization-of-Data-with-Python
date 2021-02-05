@@ -1,0 +1,28 @@
+language: python
+
+matrix:
+  include:
+    - python: 3.6
+      env: TOX_ENV=py36
+      
+branches:
+  only:
+    - master
+    
+install:
+  - pip install streamlit
+  - pip install seaborn
+  - pip install pandas
+  - pip install numpy
+  - pip install matplotlib
+  - pip install codecov
+  - pip install pytest-cov
+
+  
+skript: 
+   - python Test.py
+   - coverage run Test.py
+
+after_success:
+  - codecov
+  
