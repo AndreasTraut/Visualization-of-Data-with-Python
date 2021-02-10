@@ -1,7 +1,7 @@
 Author: Andreas Traut   
 Date: 21.01.2020     
 [Download als PDF](https://raw.githubusercontent.com/AndreasTraut/Visualization-of-Data-with-Python/main/README.pdf)    
-[![Build Status](https://travis-ci.com/AndreasTraut/Visualization-of-Data-with-Python.svg?branch=master)](https://travis-ci.com/AndreasTraut/Visualization-of-Data-with-Python) [![codecov](https://codecov.io/gh/AndreasTraut/Visualization-of-Data-with-Python/branch/master/graph/badge.svg)](https://codecov.io/gh/AndreasTraut/Visualization-of-Data-with-Python)
+[![Build Status](https://travis-ci.com/AndreasTraut/Visualization-of-Data-with-Python.svg?branch=master)](https://travis-ci.com/AndreasTraut/Visualization-of-Data-with-Python) [![codecov](https://codecov.io/gh/AndreasTraut/Visualization-of-Data-with-Python/branch/main/graph/badge.svg?token=OU5fPrV5w8)](https://codecov.io/gh/AndreasTraut/Visualization-of-Data-with-Python)
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/andreastraut/visualize-results-in-apps/main/app_Example_Marathon_extended.py)
 
 
