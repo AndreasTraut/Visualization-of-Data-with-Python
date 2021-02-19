@@ -31,7 +31,7 @@ After having completed learning these Visualization techniques you may proceed w
 
 ### d) Structure of this repository
 
-#### (i) First part
+#### (i) First part: examples
 
 <u>In the first part of this repository</u> I will work on examples. For the visualization tasks, which I wanted to do here, I exemplary used these different datasets:  
 
@@ -50,11 +50,11 @@ The three examples are available:
 
 Please have a look at these files for more information how I solved each of the examples. 
 
-#### (ii) Second part
+#### (ii) Second part: how to easily visualize data and models?
 
-<u>In the second part of this repository</u> I will show you how to visualize and share the data with an "data app". I used [Streamlit](https://www.streamlit.io/), which is surprisingly easy if you want to connect your data with pyhton code directly to a very intuitive and easy to use application. 
+<u>In the second part of this repository</u> I will show you how to visualize and share the data with a "data app". I used [Streamlit](https://www.streamlit.io/), which is surprisingly easy if you want to connect your data with pyhton code directly to a very intuitive and easy to use application. 
 
-#### (iii) Third part
+#### (iii) Third part: professional tools
 
 <u>In the third part of this repository</u> I will show some common professional tools, which offer visualization functionality. But these tools cost some money. 
 
@@ -296,7 +296,7 @@ The result is a series with timestamps and the "sumofAmount", which can be plott
 
 I think this example shows, how easy the visualization of Big Data datasets can be done, if you use more advanced tools instead of Excel. 
 
-## II. Data App
+## II. Data App: how to easily visualize data and models?
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/andreastraut/visualize-results-in-apps/main/app_Example_Marathon_extended.py)
 
