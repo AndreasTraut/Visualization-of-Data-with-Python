@@ -249,13 +249,13 @@ Have a look into my Python file to learn
 - how extract station names, number of elevators, status of elevators and longitude/latitude
 - how to use this information for visualization techniques
 
-![](./API_Deutsche_Bahn/api_DeutscheBahn_station1.jpg)
+![](./media/api_DeutscheBahn_station1.jpg)
 
-![](./API_Deutsche_Bahn/api_DeutscheBahn_station2.jpg)
+![](./media/api_DeutscheBahn_station2.jpg)
 
 After having understood and having extracted these meta data (station number, equipmentnumber) I was able to visualize them: as you can see in the screenshot above, when I handed over a stationnumber (e.g. 6323) to the Deutsche Bahn API with and received the number of elevators (here 4) and also the longitudes X=9.98278 and latitudes Y=48.39846 of this elevator. Taking these and using for example www.gps-coordinates.net you can easily visualize these longitudes and latitudes as follows: 
 
-![](./API_Deutsche_Bahn/api_DeutscheBahn_station3.jpg)
+![](./media/api_DeutscheBahn_station3.jpg)
 
 Another possibility would have been to use [Geopy](https://github.com/geopy/geopy) and type the following code (please verify the ToS for using this service on your own: it's limited!): 
 
