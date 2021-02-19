@@ -300,11 +300,25 @@ I think this example shows, how easy the visualization of Big Data datasets can 
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/andreastraut/visualize-results-in-apps/main/app_Example_Marathon_extended.py)
 
-Data Scientist often forget, that all their visualizations (and also model), which they have built, need to be used by someone, who is probably not as skilled in all these technical requirements. Therefore it is important to find a solution, which is easy to use for everyone, stable and quickly customizable. There are different solutions, but I found [Streamlit](https://www.streamlit.io/) fantastic, because I didn't have to spend time on building a webpage or learn HTML, CSS or Wordpress. Everyhing is in Python and once the setup is done (which is easy) everything I have to do for updating the whole data app is to save the Python file (no compiling needed). 
+Data Scientist often forget, that all their visualizations (and also model), which they have built, need to be used by someone, who is probably not as skilled in all these technical requirements! Therefore it is important to find a solution, which is **easy to deploy** and **easy to use** for everyone (as well on a computer as also on a mobile phone), **stable** and **quickly customizable**. There are different solutions: when you are using the programming language `R` then the combination of [Tidyverse](https://www.tidyverse.org/) and [Shiny-App](https://shiny.rstudio.com/) will be an interesting option for you. But to me the `R / Tidyverse / Shiny` bundle seems a be the *"old-standard"* or even a bit *"old-fashioned"* as [this article](https://www.datarevenue.com/de-blog/streamlit-vs-dash-vs-shiny-vs-voila-vs-flask-vs-jupyter) reveals a strong increasing popularity for [Streamlit](https://www.streamlit.io/): 
+
+![](./media/streamlit.png)
+
+Quelle: [DataRevenue-Blog](https://www.datarevenue.com/de-blog/streamlit-vs-dash-vs-shiny-vs-voila-vs-flask-vs-jupyter)
+
+I tested [Streamlit](https://www.streamlit.io/) and think: it is fantastic, because I didn't have to spend time on bshinyuilding a webpage or learn HTML, CSS or Wordpress. Everyhing is in Python and once the setup is done (which is easy) all I have to do for updating the whole data app is to save the Python file (no compiling needed). I believe that Python in combination with Streamlit is a very strong combination which will beat the `R / Tidyverse / Shiny` alternative! Here are some examples:
 
 I used the data of the "Maraton runtimes" example and as you can see I only had to change some very minor things in the python code (like `import streamlit as st` and write `st.pyplot(g)` instead of `plt.show()`) in order to create a "data app". You can upload another Excel-csv file by pressing the "Browse files" button, which will then be visualized. Using the checkboxes below will open more graphics (like histograms, kernel density, violion plots,...). See my [data app here](https://share.streamlit.io/andreastraut/visualize-results-in-apps/main/app_Example_Marathon_extended.py) and play around yourself. I uploaded the results of these two datasets (the left and right side of the window below) in the results folder. 
 
 ![](./media/app_Example_Marathon_comp.jpg)
+
+
+
+And here is a second example: as everyone is talking about Corona/Covid and epidemiological models I thought that implementing the SEIR-Model would be an interesting example. Believe me: I read the [Wikipedia SEIR-article](https://de.wikipedia.org/wiki/SEIR-Modell) and implemented [the following Streamlit solution](https://share.streamlit.io/andreastraut/visualize-results-in-apps/main/app_SEIR_model.py) in less than half an hour. This is why I love Streamlit: highly efficient, lovely design and easy to deploy.
+
+![](./media/app_Example_SEIR_model.jpg)
+
+
 
 ## III. Professional Tools
 
