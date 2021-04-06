@@ -24,7 +24,8 @@ df['datenum'] = dates.datestr2num(df['time_of_measurement'])
 df['date'] = df['time_of_measurement'].apply(pd.to_datetime, errors='coerce', utc=True)
 df['hour']= pd.DatetimeIndex(df['date']).hour
 df['minute']= pd.DatetimeIndex(df['date']).minute
-df['weekofyear'] = pd.DatetimeIndex(df['date']).weekofyear
+# df['weekofyear'] = pd.DatetimeIndex(df['date']).weekofyear
+df['weekofyear'] =  df['date'].dt.isocalendar().week
 df['weekday'] = pd.DatetimeIndex(df['date']).weekday #Monday=0
 df['weekdayname'] = pd.DatetimeIndex(df['date']).day_name()
 
@@ -37,7 +38,7 @@ def fake_dates(x, pos):
 def print_image(selection, title):
     fig, ax = pyplot.subplots()
     ax.set_title(title)
-    sns.lineplot(x=selection['datenum'], y=selection['counted_pedestrians'])
+    sns.barplot(x=selection['datenum'], y=selection['counted_pedestrians'])
     
     #Create the x-axis which is 'datenum' converted to %Y-%m-%d
     ax.xaxis.set_major_formatter(FuncFormatter(fake_dates))
