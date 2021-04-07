@@ -360,7 +360,7 @@ QLink is a fast growing tool for business intelligence and data visualization.
 
 ---
 
-### Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
+# Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
 
 ![Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](.\media\by-nc-sa.png)
 
